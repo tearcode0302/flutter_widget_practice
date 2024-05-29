@@ -12,9 +12,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('시작 페이지입니다.'),
+            child: IconButton(
+              onPressed: () => {},
+              icon: const Icon(
+                Icons.home,
+              ),
+            ),
+          ),
         ),
-      ),
-    );
+      );
   }
 }

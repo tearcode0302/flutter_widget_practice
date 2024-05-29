@@ -11,8 +11,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('시작 페이지입니다.'),
+        body: SafeArea(
+          top: true,
+          bottom: true,
+          left: true,
+          right: true,
+          child: Container(
+            color: Colors.deepOrange,
+            height: 300.0,
+            width: 300.0,
+          ),
         ),
       ),
     );

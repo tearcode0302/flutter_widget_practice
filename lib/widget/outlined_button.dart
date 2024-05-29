@@ -12,9 +12,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('시작 페이지입니다.'),
+            child: OutlinedButton(
+              onPressed: () => {},
+              style: OutlinedButton.styleFrom(
+                foregroundColor: Colors.red
+              ),
+              child: Text('아웃라인드 버튼'),
+            ),
+          ),
         ),
-      ),
-    );
+      );
   }
 }
