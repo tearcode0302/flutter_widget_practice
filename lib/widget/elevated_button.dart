@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
                 backgroundColor: Colors.red,
                 foregroundColor: Colors.white,
               ),
-              child: Text('Elevated Button'),
+              child: const Text('Elevated Button'),
             ),
           ),
         ),

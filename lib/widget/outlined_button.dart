@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
               style: OutlinedButton.styleFrom(
                 foregroundColor: Colors.red
               ),
-              child: Text('아웃라인드 버튼'),
+              child: const Text('아웃라인드 버튼'),
             ),
           ),
         ),
